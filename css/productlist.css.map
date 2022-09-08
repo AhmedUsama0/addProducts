@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": ["../scss/productlist.scss"],
+  "names": [],
+  "mappings": "AAAA;EACE;EACA;;;AAEF;EACE;;;AAEF;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;;AAGE;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;;AAIJ;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAKN;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA",
+  "file": "productlist.css"
+} 

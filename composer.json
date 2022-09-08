@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\Product\\": "product/productClasses/",
+      "App\\Models\\": "models/",
+      "App\\Controllers\\": "controllers/",
+      "App\\Config\\": "config/",
+      "App\\": "router/"
+    }
+  }
+}

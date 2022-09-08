@@ -1,0 +1,65 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9e9e9;  
+}
+ 
+.container {
+  max-width: 1140px;
+  min-width: 330px;
+  margin: 11vh auto 0 auto;
+  padding: 0 20px; 
+}
+.container .product-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid;
+}
+.container .product-head .buttons button {
+  border: none;
+  color: #fff;
+  background-color: #ddd;
+  padding: 8px 18px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.container .product-head .buttons button:first-child {
+  margin-right: 10px;
+}
+.container .product-head .buttons a {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border: none;
+  color: #fff;
+  background-color: #ddd;
+  padding: 8px 18px;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.container .grid {
+  display: grid;
+  align-items: center;
+  margin-top: 50px;
+  grid-template-columns: 110px 200px;
+  row-gap: 70px;
+  column-gap: 20px;
+}
+.container .grid input,
+.container .grid select {
+  height: 25px;
+  border-radius: 5px;
+  border-color: #fff;
+  outline: none;
+}
+.container #description {
+  margin-top: 45px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=add-product.css.map */
